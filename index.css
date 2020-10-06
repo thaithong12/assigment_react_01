@@ -1,0 +1,77 @@
+.container {
+    max-width: 98%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+}
+
+.course {
+    width: 65%;
+    padding: 8px;
+}
+
+.post {
+    width: 35%;
+}
+
+.course-list {
+    border-top: 5px solid skyblue;
+    background-color: white;
+    /* padding: 20px; */
+    /* padding-top: 17px; */
+}
+
+.course-detail {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.course-img {
+   width: 40%;
+   padding-top: 0;
+}
+
+.course-content {
+    width: 40%;
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+
+.course-content h5 {
+    margin-top: 0;
+    color: skyblue;
+}
+
+.course-content p span {
+    color: gainsboro;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s
+}
+
+.course-list .course-detail {
+    border-bottom: 2px solid gray;
+    padding: 18px;
+}
+
+.post-follow {
+    width: 60%;
+}
+
+
+
+
+
